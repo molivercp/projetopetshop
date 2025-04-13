@@ -1,11 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+
 </head>
+
 <body>
-    
+  <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="img/ChatGPT Image 13 de abr. de 2025, 17_06_11.png" alt="Mundo-Petzzy">
+      </a>
+
+      <!-- Botão de toggle para dispositivos móveis/ telas menores -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Alternar navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Conteúdo da navbar -->
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <!-- Menu de categorias -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- Dropdown Cachorro -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownCachorro" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Cachorro
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownCachorro">
+              <li><a class="dropdown-item" href="#">Alimentação</a></li>
+              <li><a class="dropdown-item" href="#">Acessórios</a></li>
+              <li><a class="dropdown-item" href="#">Higiene e Beleza</a></li>
+              <li><a class="dropdown-item" href="#">Farmácia</a></li>
+            </ul>
+          </li>
+          <!-- Dropdown Gato -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownGato" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Gato
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownGato">
+              <li><a class="dropdown-item" href="#">Alimentação</a></li>
+              <li><a class="dropdown-item" href="#">Acessórios</a></li>
+              <li><a class="dropdown-item" href="#">Higiene e Beleza</a></li>
+              <li><a class="dropdown-item" href="#">Farmácia</a></li>
+            </ul>
+          </li>
+          <!-- Outros links -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Produtos</a>
+          </li>
+        </ul>
+
+        <!-- Barra de pesquisa -->
+        <form class="d-flex me-3">
+          <input class="form-control me-2 search-input" type="search" placeholder="Pesquisar produtos"
+            aria-label="Pesquisar">
+          <button class="btn btn-outline-dark" type="submit">Buscar<i class="bi bi-search"></i></button>
+        </form>
+
+        <!-- Links de conta e carrinho -->
+        <ul class="navbar-nav p-4">
+          <li class="nav-item ">
+            <a class="nav-link" href="#"><i class="bi bi-person"></i> Entrar</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link position-relative" href="#">
+              <i class="bi bi-cart"></i> Cadastro
+            
+      
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
+  integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+
 </html>
