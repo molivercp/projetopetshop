@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand ps-3" href="#">
+        <img src="img/logo (1).png" alt="Mundo-Petzzy">
+      </a>
+
+      <!-- Botão de toggle para dispositivos móveis/ telas menores -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Alternar navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Conteúdo da navbar -->
+      <div class="collapse navbar-collapse ps-4" id="navbarContent">
+        <!-- Menu de categorias -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          
+          <!-- Home, serviços e produtos -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Produtos</a>
+          </li>
+        </ul>
+        <!-- Barra de pesquisa -->
+        <form class="d-flex me-3 pe-4 tamanho">
+          <input class="form-control me-2 search-input" type="search" placeholder="Pesquisar produtos"
+            aria-label="Pesquisar">
+          <button class="btn btn-outline-dark" type="submit">Buscar<i class="bi bi-search"></i></button>
+        </form>
+        <!-- Links de entrar e carrinho -->
+        <ul class="navbar-nav pe-4">
+      
+          <li class="nav-item ">
+            <a class="nav-link" href="#"><i class="bi bi-person"></i><img src="img/Made with insMind-entrat.png" class="mb-1" alt="" style="width: 20px;">Entrar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link position-relative" href="#">
+              <i class="bi bi-cart"></i>Adote</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carousel" class="carousel slide mx-auto mt-4 rounded-5" data-bs-ride="carousel" style="width: 1060px;">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/banner.png" class="d-block w-100" alt="" style="height: 400px;">
+      </div>
+      <div class="carousel-item">
+        <img src="img/car.png" class="d-block w-100" alt="" style="height: 400px;">
+      </div>
+      <div class="carousel-item">
+        <img src="img/vacina.png" class="d-block w-100" alt="" style="height: 400px;">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container d-flex flex-column mt-4 mb-4 rounded-4" style="width: 1060px; background-color: #845cdc;">
+    <img src="img/banner-brinquedo.png" alt="" class="rounded-4 align-self-center mt-2" style="width: 1040px;">
+    <div class="mt-1 mb-2">
+     <button class="btn w-100 fs-3 p-0 text-light">Ver produtos</button>
+    </div>
+  </div>
+
+
+  
+    <div class="row row-cols-1 row-cols-md-2 g-4 mx-auto" style="width: 1080px;">
+      <div class="col">
+        <div class="card">
+          <img src="img/col .png" class="card-img-top mx-auto" alt="..." style="height: 340px;">
+          
+        </div>
+      </div>
+      <div class="col border-0">
+        <div class="card border-0">
+          <img src="img/adote.png" class="card-img-top" alt="..." style="height: 340px;">
+          
+      
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="mt-4" style="background-color: #acd6d1; height: 150px;">
+  <div>
+    <p>Endereço</p>
+  </div>
+  <div>
+    <p>Onde Estamos</p>
+  </div>
+  
+    
+
+  </footer>
+
+  
+  
+
+</body>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</html>
